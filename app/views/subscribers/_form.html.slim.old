@@ -1,0 +1,58 @@
+// Begin MailChimp Signup Form 
+
+#mc_embed_signup
+  
+  = form_tag(mailchimp_subscribe_url, method: "POST", \
+    id: "mc-embedded-subscribe-form", name: "mc-embedded-subscribe-form", \
+    class: "validate", target: "_blank", novalidate: true) do
+    
+
+    / real people should not fill this in and expect good things
+    / do not remove this or risk form bot signups
+    div style="position: absolute; left: -5000px;"
+      input type="text" name="b_1d5686bbf51d8682fecc3478b_6d61b72c52" tabindex="-1" value=""
+
+    h2 Want to be kept in the loop?
+  
+    = form_group class: "mc-field-group" do
+      
+      = label_tag :"mce-FNAME" do
+        ' Your first name  
+        span.asterisk *
+
+      = text_field_tag(:FNAME, "", id: :"mce-FNAME", class: "form-control required",\
+        placeholder: "What should I call you?")
+
+    = form_group class: "mc-field-group" do
+    
+      = label_tag :"mce-FNAME" do
+        ' Email address  
+        span.asterisk *
+
+      = email_field_tag(:EMAIL, "", id: :"mce-EMAIL", class: "form-control required", \
+        placeholder: "example@example.com")
+      
+    #mce-responses.clear
+      .response#mce-error-response style="display:none"
+      .response#mce-success-response style="display:none"
+
+    
+    .actions
+      = submit_tag("Keep me up to date", id: "mc-embedded-subscribe", \
+        class: "button btn-primary btn-lg btn")
+
+        
+
+= javascript_include_tag("//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js")
+
+javascript:
+  (function($) {
+    window.fnames = new Array(); 
+    window.ftypes = new Array();
+    fnames[1]='FNAME';
+    ftypes[1]='text';
+    fnames[0]='EMAIL';
+    ftypes[0]='email';
+  }(jQuery));
+  var $mcj = jQuery.noConflict(true);
+// End mc_embed_signup

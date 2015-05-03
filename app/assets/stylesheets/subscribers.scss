@@ -1,23 +1,41 @@
 @import 'compass/css3';
+@import 'colours';
 
-html, body {
-  height: 100%;
+body {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', Helvetica, Arial;
+  color: #555555;  
 }
 
+h1, h2, h3, h4 {
+  color: black;
+}
+
+p, ul, ol {
+  margin: 0 0 2em 0;
+  line-height: 1.8;
+}
 #jumbotron_container {
-  height: 100%;
-  position: relative;
+  background-color: #F16334;
+  padding: 5%;
+}
+
+hr { 
+  margin: 2em 0;
+  padding: 0;
+  height: 0;
+  border-bottom-color: #F16334;
+  border-top-color: #F7784D;  
 }
 .jumbotron {
-  margin: 0 auto;
-  left: 5%;
-  width: 90%;
-  position: absolute;
-  top: 50%;
-  @include translateY(-50%);
+  margin: 0;
+  padding: 2.5%;
+  background-color: #F7784D;
+  color: white;
 }
 
 #new_subscriber {
+
   input[type='email'] {
     @include border-radius(5px 0 0 5px)
   }
@@ -26,4 +44,8 @@ html, body {
     @include border-radius(0 5px 5px 0)
   }
   
+}
+.btn-primary {
+  background-color: #F16334;
+  border-color: #F16334;
 }

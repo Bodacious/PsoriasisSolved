@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  
-  resources :subscribers, only: [:create]
 
-  root to: 'subscribers#new'
+
+  root to: 'landing_pages#subscribe_1'
 end

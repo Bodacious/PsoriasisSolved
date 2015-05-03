@@ -1,4 +1,4 @@
-class Subscriber < ActiveRecord::Base
+class Subscriber # < ActiveRecord::Base
   
-  validates :email, presence: true
+  # validates :email, presence: true
 end
