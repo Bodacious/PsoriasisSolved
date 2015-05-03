@@ -8,9 +8,11 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: black;
+  color: #333;
 }
-
+strong {
+  color: #333;
+}
 p, ul, ol {
   margin: 0 0 2em 0;
   line-height: 1.8;
@@ -33,7 +35,9 @@ hr {
   background-color: #F7784D;
   color: white;
 }
-
+#more_info {
+  padding-top: 1em;
+}
 #new_subscriber {
 
   input[type='email'] {
@@ -48,4 +52,11 @@ hr {
 .btn-primary {
   background-color: #F16334;
   border-color: #F16334;
+}
+p.lead-focus{
+  font-size: 21px;
+  padding: 1em 0;
+  margin: 1em 0 !important;
+  border-top: thin solid #F16334;
+  border-bottom: thin solid #F16334;  
 }
