@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title PsoriasisSolved
+  
+    = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+    
+  body
+
+    #jumbotron_container
+      .jumbotron
+        .container
+          = yield
+        
+    footer.container
+      .row
+        .col-xs-12
+          ' &copy; Psoriasis Solved #{Date.today.year}
+        

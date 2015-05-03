@@ -1,0 +1,29 @@
+@import 'compass/css3';
+
+html, body {
+  height: 100%;
+}
+
+#jumbotron_container {
+  height: 100%;
+  position: relative;
+}
+.jumbotron {
+  margin: 0 auto;
+  left: 5%;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  @include translateY(-50%);
+}
+
+#new_subscriber {
+  input[type='email'] {
+    @include border-radius(5px 0 0 5px)
+  }
+  
+  input[type='submit'] {
+    @include border-radius(0 5px 5px 0)
+  }
+  
+}

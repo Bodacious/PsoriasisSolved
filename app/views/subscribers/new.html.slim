@@ -1,0 +1,21 @@
+.text-center
+
+  h1 Do you want to be free from Psoriasis?
+
+  markdown:
+
+    Hey, my name is Gavin. I struggled with psoriasis for 16 years before I decided to do something about it.
+
+
+  = kc_form(subscriber, remote: true, html: { class: "form-inline" }) do |f|
+  
+    = f.group do
+  
+      = f.label(:email, class: "sr-only")
+      = f.email_field(:email, placeholder: "Enter your email address")
+    
+      
+    = f.submit("Sign me up!")
+    
+    .text-center
+      = link_to("Learn more...", '#')

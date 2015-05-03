@@ -1,0 +1,21 @@
+
+-----------------------------------------------------------------
+  pg_upgrade run on Sat Apr 25 21:36:38 2015
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql/9.1.5/bin" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Sat Apr 25 21:36:58 2015
+-----------------------------------------------------------------
+
+check for "/usr/local/Cellar/postgresql/9.1.5/bin" failed: No such file or directory
+
+
+-----------------------------------------------------------------
+  pg_upgrade run on Sat Apr 25 21:37:13 2015
+-----------------------------------------------------------------
+
+check for "/usr/local/var/postgres91/pg_tblspc" failed: No such file or directory
+
