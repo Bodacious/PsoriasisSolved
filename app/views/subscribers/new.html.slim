@@ -1,21 +1,31 @@
-.text-center
+#jumbotron_container
+  .jumbotron
+    .container
+      .text-center
 
-  h1 Do you want to be free from Psoriasis?
+        h1 Do you want to be free from Psoriasis?
 
-  markdown:
+        markdown:
+          Hi, my name is Gavin. I struggled with psoriasis for 16 years before I decided to do something about it...
 
-    Hey, my name is Gavin. I struggled with psoriasis for 16 years before I decided to do something about it.
-
-
-  = kc_form(subscriber, remote: true, html: { class: "form-inline" }) do |f|
+.container#more_info  
   
-    = f.group do
+  .row
+    .col-xs-12.col-sm-8.col-sm-offset-2
+      markdown:
   
-      = f.label(:email, class: "sr-only")
-      = f.email_field(:email, placeholder: "Enter your email address")
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  
+  
+  .row
+    .col-xs-12.col-sm-8.col-sm-offset-2.text-center
     
-      
-    = f.submit("Sign me up!")
-    
-    .text-center
-      = link_to("Learn more...", '#')
+      = kc_form(subscriber, remote: true, html: { class: "form-inline" }) do |f|
+
+        = f.group do
+
+          = f.label(:email, class: "sr-only")
+          = f.email_field(:email, placeholder: "Enter your email address")
+
+  
+        = f.submit("Keep me updated")

@@ -21,7 +21,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 
 # Use ActiveModel has_secure_password
-gem 'puma'
+# gem 'puma'
+
+gem 'unicorn'
+gem 'rack-timeout'
+
 
 gem 'slim-rails'
 
