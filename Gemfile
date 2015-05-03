@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.1'
 # Use postgresql as the database for Active Record
-gem 'pg'
+# gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem "compass-rails", github: "Compass/compass-rails", branch: "master"
@@ -18,7 +18,7 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-gem 'turbolinks'
+# gem 'turbolinks'
 
 # Use ActiveModel has_secure_password
 # gem 'puma'
@@ -26,13 +26,12 @@ gem 'turbolinks'
 gem 'unicorn'
 gem 'rack-timeout'
 
-
 gem 'slim-rails'
 
 gem 'redcarpet'
 
-gem 'gibbon'
-gem 'sucker_punch'
+# gem 'gibbon'
+# gem 'sucker_punch'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
