@@ -1,17 +1,19 @@
 #jumbotron_container
   .jumbotron
     .container
-      .text-center
+      .row
+        .col-xs-12.col-sm-10.col-sm-offset-1
+          .text-center
 
-        h1 Do you want to be free from Psoriasis?
+            h1 Do you want to be free from Psoriasis?
 
-        markdown:
-          I struggled with psoriasis for 16 years before I decided to do something about it...
+            markdown:
+              I struggled with psoriasis for 16 years before I decided to do something about it...
 
 section.container#more_info  
 
   .row
-    .col-xs-12.col-sm-8.col-sm-offset-2
+    .col-xs-12.col-sm-10.col-sm-offset-1
       markdown:
         
         ## My story, in brief
@@ -53,7 +55,7 @@ section.container#more_info
       
 section.container
   .row
-    .col-xs-12.col-sm-8.col-sm-offset-2
+    .col-xs-12.col-sm-10.col-sm-offset-1
 
     
       = render 'subscribers/form'

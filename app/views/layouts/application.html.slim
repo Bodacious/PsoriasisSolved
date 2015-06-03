@@ -12,7 +12,8 @@ html
         
     footer.container
       .row
-        .col-xs-12.col-sm-8.col-sm-offset-2
+        .col-xs-12.col-sm-10.col-sm-offset-1
           p
             small &copy; Psoriasis Solved #{Date.today.year}
         
+    = render "layouts/google_analytics" if Rails.env.production?
