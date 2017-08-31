@@ -1,0 +1,31 @@
+.jumbotron {
+  margin: 0;
+  padding: 2.5%;
+  background-color: #F7784D;
+  color: white;
+}
+#more_info {
+  padding-top: 1em;
+}
+#new_subscriber {
+
+  input[type='email'] {
+    border-radius: 5px 0 0 5px
+  }
+
+  input[type='submit'] {
+    border-radius: 0 5px 5px 0
+  }
+
+}
+.btn-primary {
+  background-color: #F16334;
+  border-color: #F16334;
+}
+p.lead-focus{
+  font-size: 21px;
+  padding: 1em 0;
+  margin: 1em 0 !important;
+  border-top: thin solid #F16334;
+  border-bottom: thin solid #F16334;
+}

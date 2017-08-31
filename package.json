@@ -1,0 +1,71 @@
+{
+  "name": "psoriasis-solved",
+  "version": "1.0.0",
+  "description": "Static landing page for PS",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --colors --no-info --port 3000",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Bodacious/PsoriasisSolved.git"
+  },
+  "keywords": [
+    "node",
+    "static",
+    "book",
+    "landingpage",
+    "mailchimp"
+  ],
+  "author": "Bodacious",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bodacious/PsoriasisSolved/issues"
+  },
+  "homepage": "https://github.com/Bodacious/PsoriasisSolved#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^3.3.7",
+    "bootstrap-webpack": "0.0.6",
+    "coffee": "^4.1.0",
+    "compass": "^0.1.1",
+    "css-loader": "^0.28.5",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "ruby-sass-loader": "^0.4.0",
+    "sass-resources-loader": "^1.3.0",
+    "style-loader": "^0.18.2",
+    "webpack-dev-server": "^2.7.1",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "coffee-loader": "^0.8.0",
+    "cssnano": "^3.10.0",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-minifier": "^3.5.3",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.5",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-import": "^10.0.0",
+    "postcss-loader": "^2.0.6",
+    "sass-loader": "^6.0.6",
+    "sugarss": "^1.0.0",
+    "uglify": "^0.1.5",
+    "uglifyjs": "^2.4.11",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.5"
+  }
+}
