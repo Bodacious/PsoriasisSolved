@@ -1,0 +1,15 @@
+//
+
+.post-source {
+  display: none;
+}
+
+article.post{
+  h1,h2,h3,h4 {
+    font-family: $font-family-serif !important;
+    margin-top: 1rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}

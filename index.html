@@ -1,0 +1,28 @@
+---
+layout: default
+title: Psoriasis Solved
+---
+<div class="introduction">
+  <p>
+    {{ site.description }} <a href="{{ site.baseurl }}/about">Learn more</a>.
+  </p>
+</div>
+
+<hr>
+
+<div class="toc">
+  <h2>Latest articles</h2>
+  <ul class="texts">
+  {% for item in site.posts %}
+
+    <li class="text-title">
+      <a href="{{ site.baseurl }}{{ item.url }}">
+        {{ item.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+
+

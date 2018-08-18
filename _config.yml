@@ -1,0 +1,71 @@
+# Built with Jekyll 3.2.0
+
+# Setup
+title:   Psoriasis Solved
+tagline: Solving psoriasis, for good
+
+description: >-
+  Psoriasis Solved is a blog that explores the science behind the causes of psoriasis, and what can be done to help treat it.
+
+disclaimer: >-
+  The information provided on this website should not be construed as personal medical advice or instruction.
+
+  No action should be taken based solely on the contents of the information on this website.
+
+  Readers should consult appropriate health professionals on any matter relating to their health and well-being.
+
+  The information and opinions provided here are believed to be accurate and sound, based on the best judgment available to the author, but readers who fail to consult appropriate health authorities assume the risk of any injuries.
+
+  Use of the suggestions and other information contained in this website is at the sole choice and risk of the reader.
+
+baseurl: ""
+url: "https://psoriasissolved.com"
+
+# About/contact
+author:
+  name: Gavin Morrice
+  url:  https://gavinmorrice.com
+  email: "gavin@psoriasissolved.com"
+
+# Features
+features:
+  annotation: true
+
+# Analytics
+fb_app_id:
+google_analytics_id: UA-63710589-1
+
+permalink: pretty
+permalink: /:title/
+
+# Set encoding to UTF-8
+encoding: utf-8
+
+# Collections for texts
+# collections_dir:
+#   'content'
+# collections:
+#   article:
+#     output: true
+#     defaults:
+#       layout: 'article'
+
+# Markdown specs
+markdown: kramdown
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  footnote_backlink: "&#x21a9;&#xfe0e;"
+  toc_levels:     1..4
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+plugins:
+  - jekyll-email-protect
+
+# Exclusions from the final site
+exclude:
+  - optional
+  - vendor
