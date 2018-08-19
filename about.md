@@ -3,7 +3,9 @@ layout: page
 title: About Psoriasis Solved
 ---
 
-Hi, my name is Gavin.
+Psoriasis Solved is the personal notes of Gavin Morrice on the subject of psoriasis. The articles on this website focus on a science-based approach approach to building a healthy, sustainable lifestyle that is psoriasis free.
+
+<!-- Hi, my name is Gavin.
 
 I first developed Psoriasis when I was 4 years old, and it severely impacted most of my childhood.
 
@@ -36,6 +38,6 @@ I’d like to share everything I’ve learned with you in a collection I’ve ca
 - A promise of a cure—we still can’t cure autoimmune diseases yet, but you can live without them ever being a problem again
 - Medical advice—I’m not a doctor, nor am I trained or certified to give medical advice.
 
-I hope you find the information in these articles interesting. Please remember to subscribe for updates on future posts.
+I hope you find the information in these articles interesting. Please remember to subscribe for updates on future posts. -->
 
 <a href="{{ site.baseurl }}/">Go back to home</a>
