@@ -2,7 +2,7 @@
 layout: "article"
 title: "Can psoriasis be treated with bile acids?"
 date:   2018-08-18 12:16:01 +01:00:00
-categories: bile, digestion, endotoxin
+tags: bile digestion endotoxin
 ---
 
 > "What need is there to list all the nasty and painful indignities that come pouring in upon us as we go through the troublesome and disgusting process of digestion?"
