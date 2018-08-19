@@ -69,6 +69,6 @@ Bile Acids are available from your local pharmacy, or online including on Amazon
 
 [^4]:	[https://jamanetwork.com/journals/jamadermatology/article-abstract/542937](https://jamanetwork.com/journals/jamadermatology/article-abstract/542937)
 
-[^5]: https://jb.asm.org/content/100/1/220.long
+[^5]: [https://jb.asm.org/content/100/1/220.long](https://jb.asm.org/content/100/1/220.long "Effect of Bile Acids on the Intestinal Absorption of Endotoxin in Rats")
 
-[^6]: https://www.pathophysiologyjournal.com/article/S0928-4680(03)00042-7/fulltext
+[^6]: [https://www.pathophysiologyjournal.com/article/S0928-4680(03)00042-7/fulltext](https://www.pathophysiologyjournal.com/article/S0928-4680(03)00042-7/fulltext "Pathophysiology of psoriasis: coping endotoxins with bile acid therapy")

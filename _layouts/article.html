@@ -10,13 +10,9 @@ layout: default
 
   <div class="post-author">
     Written by {{ site.author.name }} on
-    {{ page.date | date_to_long_string: "ordinal", "UK" }}
+    {{ page.date | date: "%d %B, %Y" }}
   </div>
 
   {{ content }}
 
 </article>
-
-<div class="post-source">
-  Originally published on {{ site.url }}{{ page.url }}
-</div>

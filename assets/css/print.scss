@@ -45,6 +45,9 @@ sitemap: false
     h1, h2, h3, h4 {
       margin: 0.25rem 0;
       font-family: $font-family-serif;
+      page-break-before: auto;
+      page-break-after: avoid;
+
       &, & a {
         text-decoration: none;
         color: inherit;
@@ -72,9 +75,10 @@ sitemap: false
       margin: 0;
       margin-top: 0rem;
       margin-bottom: 1rem;
-
+      word-break: keep-all;
     }
     blockquote {
+      margin: 2rem 1rem;
       font-size: 1.2rem;
       font-style: italic;
     }

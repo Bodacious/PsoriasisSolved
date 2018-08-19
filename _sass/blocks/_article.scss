@@ -4,12 +4,21 @@
   display: none;
 }
 
-article.post{
+article.post {
+
+  word-break: keep-all;
+
   h1,h2,h3,h4 {
+    page-break-after: auto;
+    page-break-after: avoid;
     font-family: $font-family-serif !important;
     margin-top: 1rem;
     &:first-child {
       margin-top: 0;
     }
+  }
+
+  blockquote, p {
+    page-break-inside: avoid;
   }
 }
