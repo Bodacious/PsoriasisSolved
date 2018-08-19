@@ -6,6 +6,7 @@ categories: bile, digestion, endotoxin
 ---
 
 > "What need is there to list all the nasty and painful indignities that come pouring in upon us as we go through the troublesome and disgusting process of digestion?"
+>
 > —Plutarch, Banquet of the Seven Wise Men
 
 Since as far back as Hippocrates, almost two and a half millennia ago, people have understood the important role digestion plays in health and disease. Good digestion leads to good general health, and poor digestion to poor general health.
@@ -15,6 +16,7 @@ But in modern times, Western culture tends to speak about disease as a result of
 However, a growing amount of scientific research casts light on the role that nutrition and digestion play in many diseases; adding deeper understanding and validation to the observations that have been shared as common folk wisdom for thousands of years.
 
 > “Happiness for me is largely a matter of digestion.”
+>
 > ― Lin Yutang
 
 ## Endotoxin and disease
@@ -56,8 +58,8 @@ There seems to be evidence for endotoxin as a contributing factor in psoriasis. 
 Bile acids are a cheap and relatively safe supplement that are apparently very effective at treating psoriasis.
 
 Bile Acids are available from your local pharmacy, or online including on Amazon.com:
-- [Nutricology Ox Bile (Affiliate link)](https://amzn.to/2BoVxDb "Nutricology Ox Bile")
-- [Nutricology Ox Bile (Non-affiliate link)](https://www.amazon.co.uk/dp/B0002JIUDS/ref=pe_3187911_189395841_TE_dp_1 "Nutricology Ox Bile")
+- [Nutricology Ox Bile](https://amzn.to/2BoVxDb "Nutricology Ox Bile") (Affiliate link)
+- [Nutricology Ox Bile](https://www.amazon.co.uk/dp/B0002JIUDS/ref=pe_3187911_189395841_TE_dp_1 "Nutricology Ox Bile") (Non-affiliate link)
 
 ## References
 
