@@ -33,6 +33,7 @@ features:
 
 # Analytics
 fb_app_id: 244813549560587
+fb_admin_id: 100003048600703
 google_analytics_id: UA-63710589-1
 
 permalink: pretty

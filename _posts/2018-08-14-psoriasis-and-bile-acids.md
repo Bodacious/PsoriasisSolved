@@ -1,6 +1,8 @@
 ---
 layout: "article"
 title: "Can psoriasis be treated with bile acids?"
+author: Gavin Morrice
+editor: Gavin Morrice
 date:   2018-08-18 12:16:01 +01:00:00
 tags: bile digestion endotoxin
 ---
