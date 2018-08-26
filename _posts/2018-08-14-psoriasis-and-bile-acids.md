@@ -1,11 +1,16 @@
 ---
 layout: "article"
 title: "Can psoriasis be treated with bile acids?"
+description: >-
+  Can bile acid supplements be a useful tool in treating and managing psoriasis caused by bacterial endotoxin?
+
 author: Gavin Morrice
 editor: Gavin Morrice
 date:   2018-08-18 12:16:01 +01:00:00
 tags: bile digestion endotoxin
 ---
+
+{{ page.description }}
 
 > "What need is there to list all the nasty and painful indignities that come pouring in upon us as we go through the troublesome and disgusting process of digestion?"
 >

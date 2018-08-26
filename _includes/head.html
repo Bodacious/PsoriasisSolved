@@ -16,7 +16,7 @@
   <meta name="DC.creator" content="{{ page.author }}" />
   <meta name="DC.contributor" content="{{ page.editor }}" />
   <meta name="DC.publisher" content="{{ site.title }}">
-  <meta name="DC.date" content="{{ page.date | '%Y-%m-%dT%H:%M:%S.%L%z' }}" />
+  <meta name="DC.date" content="{{ page.date }}" />
   <meta name="DC.rights" content="Copyright © {{ page.author }}; All rights reserved" />
   <meta name="DC.source" content="{{ site.title }}" />
 
@@ -66,7 +66,25 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}/atom.xml"/>
 
   <script type="application/ld+json">
-  {"description":"{{ page.description }}","author":{"@type":"Person","name":"{{ site.author.name }}"},"@type":"BlogPosting","url":"{{ site.url }}{{ page.url }}","headline":"{{ page.title }}","dateModified":"{{ page.date }}","datePublished":"{{ page.date }}","mainEntityOfPage":{"@type":"WebPage","@id":"{{ site.url }}{{ page.url }}"},"@context":"http://schema.org"}</script>
+  {
+    "description": "{{ page.description }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ site.author.name }}"
+    },
+    "@type": "BlogPosting",
+    "url": "{{ site.url }}{{ page.url }}",
+    "headline": "{{ page.title }}",
+    "dateModified": "{{ page.date | date: '%Y-%m-%d' }}",
+    "datePublished": "{{ page.date | date: '%Y-%m-%d' }}",
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ site.url }}{{ page.url }}"
+    },
+    "@context": "http://schema.org"
+  }
+
+  </script>
 
   <!-- Google analytics -->
   {% if site.google_analytics_id != null %}
