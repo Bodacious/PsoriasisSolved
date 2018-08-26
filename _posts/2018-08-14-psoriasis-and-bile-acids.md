@@ -13,7 +13,7 @@ tags: bile digestion endotoxin
 
 Since as far back as Hippocrates, almost two and a half millennia ago, people have understood the important role digestion plays in health and disease. Good digestion leads to good general health, and poor digestion to poor general health.
 
-But in modern times, Western culture tends to speak about disease as a result of random luck (disease is caused by genes), and health as something restored by medical intervention (pharmaceutical drugs and surgery). The more fundamental factors, like nutrition and digestion, seem to be regarded as so unsophisticated that they are seldom discussed as significant contributors to a person's health. (GPs have told me, without a hint of irony, that diet has no effect on psoriasis).
+But in modern times, Western culture tends to speak about disease as a result of random luck (disease is caused by genes), and health as something restored by medical intervention (pharmaceutical drugs and surgery). The more general, fundamental factors, like nutrition and digestion, seem to be regarded as so unsophisticated that they are seldom discussed as significant contributors to a person's health. (GPs have told me, without a hint of irony, that diet has no effect on psoriasis).
 
 However, a growing amount of scientific research casts light on the role that nutrition and digestion play in many diseases; adding deeper understanding and validation to the observations that have been shared as common folk wisdom for thousands of years.
 
@@ -23,7 +23,7 @@ However, a growing amount of scientific research casts light on the role that nu
 
 ## Endotoxin and disease
 
-Endotoxin is a word that most people haven’t heard, since it’s not very well known outside the realm of biological and medical research. Yet, this substance is becoming a significant area of study in diseases; especially inflammatory diseases such as psoriasis and metabolic diseases such as obesity and diabetes.
+Endotoxin is a word that most people haven’t heard, since it’s not really used outside the realm of biological and medical research. Yet, this substance is becoming a significant area of study in diseases; especially inflammatory diseases such as psoriasis and metabolic diseases such as obesity and diabetes.
 
 Put simply, bacterial endotoxin is a type of molecule produced in the gut by certain bacteria. These "bad" bacteria produce endotoxin as a part of their life-cycle, and release it into your guts either as a by-product of their own metabolism, or when these cells die.[^1]
 
@@ -55,7 +55,7 @@ The researchers included in their paper:
 > In our view, the success of this treatment method can be attributed to the fact that by remedying the temporary bile deficiency the absorption of endotoxins and thus the release of cytokines [molecules that signal inflammation] are prevented. Thus, the recognized effect played by cytokines in the pathogenesis of psoriasis underlines the indirect role of bacterial endotoxins. This effect, however, probably occurs only, if bile secretion or discharge is disturbed… Therefore, the treatment of psoriasis with bile acids is actually the supplementation of a physiological substance rather than a medicinal therapy.
 
 ## Summary
-There seems to be evidence for endotoxin as a contributing factor in psoriasis. And strong evidence has been provided for the role of bile in detoxifying endotoxin in the bowels. A controlled experiment with 800 subjects tested the hypothesis that supplementing bile acids lead to a dramatic improvement in psoriatic symptoms in the majority of subjects, and produced signficant positive results.
+There seems to be convincing evidence suggesting that endotoxin is a contributing factor in psoriasis. And strong evidence has been provided for the role of bile in detoxifying endotoxin in the bowels. A controlled experiment with 800 subjects tested the hypothesis that supplementing bile acids leads to a significant improvement in psoriatic symptoms in the majority of subjects, and produced extremely promising results.
 
 Bile acids are a cheap and relatively safe supplement that are apparently very effective at treating psoriasis.
 
