@@ -32,7 +32,7 @@ features:
   annotation: true
 
 # Analytics
-fb_app_id:
+fb_app_id: 244813549560587
 google_analytics_id: UA-63710589-1
 
 permalink: pretty
