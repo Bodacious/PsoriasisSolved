@@ -67,4 +67,9 @@
   <script type="application/ld+json">
   {"description":"{{ page.description }}","author":{"@type":"Person","name":"{{ site.author.name }}"},"@type":"BlogPosting","url":"{{ site.url }}{{ page.url }}","headline":"{{ page.title }}","dateModified":"{{ page.date }}","datePublished":"{{ page.date }}","mainEntityOfPage":{"@type":"WebPage","@id":"{{ site.url }}{{ page.url }}"},"@context":"http://schema.org"}</script>
 
+  <!-- Google analytics -->
+  {% if site.google_analytics_id != null %}
+    {% include google_analytics.html %}
+  {% endif %}
+
 </head>
